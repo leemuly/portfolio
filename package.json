@@ -1,0 +1,22 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "marigrace's portfolio website",
+  "scripts": {
+    "start": "npm run build-watch & npm run start-server",
+    "start-server": "nodemon server --ignore client --ignore public",
+    "build-watch": "webpack -w",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Marigrace Leeman",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "morgan": "^1.9.1",
+    "path": "^0.12.7",
+    "react": "^16.9.0",
+    "react-router": "^5.0.1",
+    "webpack": "^4.40.2",
+    "webpack-cli": "^3.3.8"
+  }
+}
